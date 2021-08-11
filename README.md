@@ -1,8 +1,8 @@
 # pythonping
-PowerChord2HTML 
+ChordPro2HTML 
 
 ## Basic Usage
-convert powerchord lyrics into HTML-based songsheets.
+convert chordpro lyrics into HTML-based songsheets.
 
 ## Syntax for writing songsheets
 
@@ -12,7 +12,7 @@ C                F      C
 Twinkle, twinkle little star.
 
 ```python
-from powerchord2html import Parser as p
+from chordpro2html import Parser as p
 
 p.to_html("""[C]Twinkle, twinkle [F]little [C]star.
            [F]How I [C]wonder [G7]what you [C]are.
@@ -26,7 +26,7 @@ p.to_html("""[C]Twinkle, twinkle [F]little [C]star.
 
 ## Limitations
 
-Currently only the chord notation is supported when importing PowerChord text. It is advisable to remove any other directives before processing with PowerChord2HTML.
+Currently only the chord notation is supported when importing ChordPro text. It is advisable to remove any other directives before processing with ChordPro2HTML.
 
 ## Planned
 

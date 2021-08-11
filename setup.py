@@ -3,15 +3,15 @@ from setuptools import setup
 with open('README.md', 'r') as file:
     long_description = file.read()
 
-setup(name='PowerChord2HTML',
+setup(name='ChordPro2HTML',
       version='0.1.0',
       description='Add chords to lyrics and export an HTML document out of it!',
-      url='https://github.com/Zenahr/PowerChord2HTML',
+      url='https://github.com/Zenahr/ChordPro2HTML',
       author='Zenahr Barzani',
       author_email='zenmatica@gmail.com',
       license='MIT',
-      packages=['powerchord2html'],
-      keywords=['powerchord',
+      packages=['chordpro2html'],
+      keywords=['chordpro',
                 'lyrics',
                 'chords',
                 'music'

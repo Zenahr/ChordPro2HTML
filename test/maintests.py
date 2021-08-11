@@ -1,6 +1,6 @@
 import sys
-sys.path.append('../powerchord2html')
-from powerchord2html import Parser
+sys.path.append('../chordpro2html')
+from chordpro2html import Parser
 
 p = Parser()
 
