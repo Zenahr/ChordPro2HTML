@@ -1,5 +1,5 @@
-# pythonping
-ChordPro2HTML 
+# ChordPro2HTML
+ 
 
 ## Basic Usage
 convert chordpro lyrics into HTML-based songsheets.
