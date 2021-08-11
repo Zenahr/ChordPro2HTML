@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return p.to_html('[G7]hello world. [G7]hello [C]world.')
+    return p.to_html(TWINKLE)
 
 if __name__ == '__main__':
     app.run(debug=True)
