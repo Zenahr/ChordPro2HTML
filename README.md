@@ -32,3 +32,7 @@ Currently only the chord notation is supported when importing ChordPro text. It 
 
 - export as HTML file
 - export as PDF file
+
+## Motivation
+
+I'm planning on creating a public website where users can submit their own songsheets and add various translations. Why? Because no good website exists for songsheets for J-POP/K-POP songs that support smooth transition between hiragana, kanji, romaji and hangui. PowerChord2HTML is the base parser for needed for that.
